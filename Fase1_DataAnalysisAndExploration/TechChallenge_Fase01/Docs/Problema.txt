@@ -1,0 +1,65 @@
+O PROBLEMA
+
+1. Empresa que exporta vinhos do Brasil para o mundo todo.
+2. Sua área é recém-criada na empresa:
+    Responsável pelos relatórios iniciais a serem apresentados em uma reunião de investidores e acionistas:
+        - Explicar a quantidade de vinhos exportados
+        - Fatores externos que podem vir a surgir e que interferem nas análises:
+            - Dados Climáticos
+            - Dados Demográficos
+            - Dados Econômicos
+            - Dados de Avaliações de Vinhos
+3. O Head de dados pediu para construir uma tabela com:
+    - País de Origem (Brasil)
+    - País de Destino
+    - Quantidade em Litros de Vinhos Exportados (1KG = 1L)
+    - Valor em US$
+4. Dados de uma vinícula parceira: [http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_01](http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_01)
+5. Dizer o montante de venda de exportação nos últimos 15 anos
+    - Separar a análise por país
+    - Trazer prospecções futuras e possíveis ações para uma melhoria nas exportações
+    - Constuir gráficos atraentes que passem a ideia central para que os acionistas e investidores possam seguir em frente com as suas ações.
+Dica:
+    1. Para construir uma boa análise, utilize várias bases do mesmo site
+    2. Utilizar os dados externos citados acima para enriquecer ainda mais a mensagem que você quer passar.
+
+-----------------------------------------------
+
+ESTRUTURA LÓGICA DOS DADOS - DB Exportacao_VinhosDeMesa
+    Linhas -> País de Destino
+    Colunas -> Quantidade exportada (Litros), Valor exportado (US$)
+
+-----------------------------------------------
+
+PERGUNTA NORTEADORA
+    Como está o desempenho das exportações de vinho do Brasil nos últimos 15 anos, 
+    quais mercados importam mais valor, 
+    quais fatores externos explicam esse comportamento e 
+    o que podemos fazer para crescer?”
+    
+    1. Quanto exportamos?
+    2. Para quem exportamos?
+    3. Por que exportamos assim?
+    4. O que fazer daqui pra frente?
+
+-----------------------------------------------
+
+Visão 1 — Consolidado Geral
+    1. Total de litros exportados (15 anos)
+        83,174,997
+        83,17 milhões de litros
+    2. Total em US$
+        114,449,292.00
+        US$ 114,45 milhões
+    3. Evolução anual
+        “A análise do consolidado geral indica que as exportações brasileiras de vinhos não apresentam crescimento 
+        linear ao longo dos últimos 15 anos, porém demonstram uma tendência positiva no médio e longo prazo. 
+        Apesar de períodos de retração, observa-se uma recuperação consistente a partir de 2017, 
+        com destaque para os anos de 2021 e 2022, o que sugere potencial de crescimento, 
+        ainda que com alta volatilidade influenciada por fatores externos.”
+        Valor e volume nem sempre crescem juntos
+            - oportunidade de reposicionamento premium
+            - necessidade de diversificação de mercados
+            - foco em estabilidade, não só crescimento pontual
+Responde: “O negócio está crescendo ou encolhendo?”
+
